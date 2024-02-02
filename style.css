@@ -1,0 +1,21 @@
+body {margin: 0; padding: 0;}
+
+html {box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  ul {list-style: none;}
+
+.header {background-color: #c68054;}
+
+.quote {background-color: #EDD1AE;}
+
+.cta {background-color: #95421a;}
+
+.footer {background-color: #c68054;}
+
+button {color: white; background-color: #95421a; border: none;}
+
+.ctabutton {color: white; background-color: transparent; border: 2px solid white}
