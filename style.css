@@ -1,21 +1,67 @@
-body {margin: 0; padding: 0;}
+body {margin: 0; padding: 0; font-family: montserrat, roboto, serif; font-size: 1.25rem; font-weight: 400; color: #333333;}
 
 html {box-sizing: border-box;
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
-  ul {list-style: none;}
 
-.header {background-color: #c68054;}
+  h1 {font-size: 3rem}
 
-.quote {background-color: #EDD1AE;}
+  h2 {font-size: 2.5rem;}
 
-.cta {background-color: #95421a;}
+  h3 {font-size: 2rem;}
 
-.footer {background-color: #c68054;}
+  h1, h2, h3 {font-weight: 600;}
 
-button {color: white; background-color: #95421a; border: none;}
+  a {color: #ffffff; text-decoration: none;}
 
-.ctabutton {color: white; background-color: transparent; border: 2px solid white}
+  a:hover {color: #333333; text-decoration: none;}
+
+  a:active {color: #333333; text-decoration: none;}
+
+  .hero img, .projects img {box-shadow: 0px 0px 5px #333333; object-fit: cover;}
+
+  .header, .hero, .projects, .projectlist, .quote, .cta, .footer, .menu, .menubox, ul, .js, .ctahinten, .ctavorn, .cta, .ctaaussen {display: flex;}
+
+.header {background-color: #c68054; padding-left: 1%; padding-right: 1%; justify-content: space-between;}
+
+.logo {max-width: 150px; height: auto; center;}
+
+.menu {flex-direction: row; justify-content: flex-end; color: #ffffff;}
+
+ul {list-style: none; flex-direction: row; justify-content: flex-end; gap: 5%; align-items: center;}
+
+li {text-transform: uppercase;}
+
+.hero {max-width: 1280px; justify-content: center; padding: 0% 0%; margin: 8% auto;}
+
+.herotext, .imgad {flex-basis: 50%; align-self: center;}
+
+.imgad {flex-basis: 50%;}
+
+.imgad img {display: block; margin: 0 auto;}
+
+.projects {max-width: 1280px; margin: 8% auto; align-items: center; flex-direction: column;}
+
+.projectlist {gap: 40px}
+
+.js {flex-direction: column; align-items: center;}
+
+.quote {background-color: #edd1ae;  justify-content: center; padding: 4% 0; margin: 8% 0;}
+
+.autor {text-align: end;}
+
+.ctaaussen {max-width: 1280px; justify-content: center; margin: 8% auto; background-color: #ffffff; flex-basis: 100%;}
+
+.cta {color:#ffffff; padding: 2% 6%; justify-content: space-around; align-items: center; background-color: #95421a; gap: 100px;}
+
+.ctavorn {flex-direction: column; line-height: 0%;}
+
+.ctahinten {align-items: center;}
+
+.footer {background-color: #c68054; color: #ffffff; justify-content: center;}
+
+button {color: white; background-color: #95421a; border: none; padding: 5px 35px;}
+
+.ctabutton {color: white; background-color: transparent; border: 2px solid white; padding: 5px 35px}
